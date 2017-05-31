@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+
+
+
+body{
+	background: #eee !important;
+}
+.form_login{
+	max-width: 50%;
+	padding: 25px 200px 45px;
+	margin : 0 auto;
+	background-color: #fff;
+	
+}
+.login_head{
+	margin-bottom: 30px;
+}
+.login_control{
+	position: relative;
+	font-size:16px;
+	height: auto;
+	
+}
+input[type=text]
+{
+	text-align: left;
+	padding: 10px;
+	background:light gray;
+	padding:10px;
+	
+	display: block;
+	border-radius:5px;
+	
+	
+}
+input[type=password]
+{
+	text-align: left;
+	padding: 10px;
+	background:light gray;
+	padding:10px;
+	
+	display: block;
+	border-radius:5px;
+}
+input[type="submit"]{
+	opacity: .6;
+	width:74%;
+	padding: 10px;
+	background-color:skyblue ;
+	float: center;
+}
